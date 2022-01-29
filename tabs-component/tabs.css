@@ -4,7 +4,14 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
-
+.component-links{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+  }
 .container{
     width: 365px;
     border: 1px solid black;
@@ -58,7 +65,7 @@
 }
 
 /* Overides default link visited color - dark blue/violet */
-a:visited, a:hover, a:focus {
+.tab:visited, .tab:hover, .tab:focus {
     text-decoration: none;
     color: grey;
 }

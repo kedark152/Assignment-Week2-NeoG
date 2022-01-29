@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    /* margin-top: 15px; */
     box-sizing: border-box;
     /* background-color: grey; */
 }
+.component-links{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    
+  }
 .container{
     margin: 0px;
    display: flex;
-   /* Modal */
-
    position: fixed; /* Stay in place */
    z-index: 1; /* Sit on top */
    left: 0;
@@ -23,7 +30,7 @@
    
 }
 .dialog-btn{
-    margin: 20px;
+    margin: 50px;
 }
 .alert-dialog-box {
 
@@ -110,12 +117,12 @@ button:hover{
     box-shadow: -1px 1px 8px 1px rgba(0,0,0,0.75);
     border-radius:5px;
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding: 20px;
     flex-basis: 250px; /* Could be more or less, depending on screen size */ 
 }
 .radio-btn{
-    margin: 20px;
+    margin: 0px 10px 20px 10px;
     cursor: pointer;
 }
 /* Radio Button Styling */

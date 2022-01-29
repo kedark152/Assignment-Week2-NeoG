@@ -10,6 +10,14 @@
     --primary-color: #228B22;
     --secondary-color: #8B228B;
 }
+.component-links{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+  }
 .container{
     width: 70%;
     height: 400px;
@@ -58,6 +66,10 @@ a{
   
     text-decoration: none;
     
+}
+#cell:visited, #cell:hover, #cell:focus {
+    text-decoration: none;
+    color: black;
 }
 
 #cell:focus {
