@@ -56,3 +56,9 @@
     background-color: lightgray;
     border-bottom: 2px solid grey;
 }
+
+/* Overides default link visited color - dark blue/violet */
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: grey;
+}
