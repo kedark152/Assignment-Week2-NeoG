@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* background-color: darkgrey; */
+}
+.component-links{
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: brown;
+  color: white;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  display: flex;
+  width: 340px;
+  height: auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  margin: 20px;
+  box-shadow: 0 2px 8px;
+  border-radius: 5px;
+  font-family: var(--primary-font-family);
+
+
+}
+
+#card-media {
+  background-image: url("https://picsum.photos/id/902/400");
+  background-position: 50%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+
+}
+
+#box-title {
+  font-size: 1.25rem;
+  /* font-weight: 500; */
+  font-weight: 600;
+
+}
+
+#box-sub-title,
+#card-para {
+  font-size: 0.9rem;
+  color: grey;
+  font-weight: 100;
+  margin-top: 0px;
+}
+
+
+#card-headings,
+#card-para {
+  padding: 0 10px;
+}
+
+#card-para {
+  font-size: 13px;
+  font-weight: 30;
+  padding-top: 7px;
+  /* Padding or margin??? */
+
+}
+
+#box-title {
+  margin-bottom: 8px;
+}
+
+
+#card-btns {
+  display: flex;
+  flex-basis: 340px;
+  justify-content: space-between;
+  padding: 10px 10px;
+
+}
+
+button {
+  padding: 0 4px;
+  border: none;
+  background: none;
+  color: #61240f;
+  font-size: 15px;
+  letter-spacing: 2px;
+  /* font-weight: 500; */
+  font-family: var(--primary-font-family);
+}
+
+button:hover,
+i:hover {
+  cursor: pointer;
+}
+
+button:active {
+  color: white;
+  background-color: #61240f;
+  border-radius: 5px;
+
+}
+
+i:active {
+  background-color: grey;
+  border-radius: 15px;
+}
+
+/* Card-2 CSS - Basic w/ Text over Media */
+.card-2 #card-headings {
+  margin-top: 140px;
+  color: white;
+
+}
+
+.card-2 #box-sub-title {
+  color: white;
+}
+
+/* .card-4 #card-btns{
+     justify-content: start;
+ } */
+
+/* Card 6 - Horizontal image and text */
+.card-6 #card-media {
+  width: 110px;
+  height: 110px;
+  background-size: cover;
+}

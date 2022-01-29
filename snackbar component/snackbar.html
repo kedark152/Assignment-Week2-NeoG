@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Snackbar Component</title>
+  </head>
+  <body>
+    <h1>Snackbar</h1>
+    <p>
+      Snackbars provide brief messages about app processes at the bottom of the
+      screen.
+    </p>
+    <h3>Demos</h3>
+    <hr />
+    <button class="btn-snackbar btn-baseline">BASELINE</button>
+    <button class="btn-snackbar btn-leading">LEADING</button>
+    <button class="btn-snackbar btn-stacked">STACKED</button>
+    <!-- Snackbar Baseline -->
+    <div class="snackbar snackbar-baseline">
+      <div class="text-msg">Can't send photo. Retry in 5 seconds.</div>
+      <div class="actions">
+        <button class="btn-retry">RETRY</button>
+        <i class="material-icons btn-cancel">close</i>
+      </div>
+    </div>
+    <!-- Snackbar Leading -->
+    <div class="snackbar snackbar-leading">
+      <div class="text-msg">Your photo has been archived.</div>
+      <div class="actions">
+        <button class="btn-retry">UNDO</button>
+        <i class="material-icons btn-cancel">close</i>
+      </div>
+    </div>
+    <!-- Snackbar Stacked -->
+    <div class="snackbar snackbar-stacked">
+      <div class="text-msg-stacked">
+        This item already has the label "travel". You can add a new label.
+      </div>
+      <div class="actions-stacked">
+        <button class="btn-retry">ADD A NEW LABEL</button>
+        <i class="material-icons btn-cancel">close</i>
+      </div>
+    </div>
+  </body>
+</html>

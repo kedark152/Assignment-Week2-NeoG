@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primary-color: #228B22;
+    --secondary-color: #8B228B;
+}
+.container{
+    width: 70%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+/* Drawer CSS Code below */
+.drawer{
+    flex: 0 0 220px;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+    
+}
+
+#title{
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+#sub-title{
+ margin: 5px;
+ font-size: 15px;
+ padding: 5px;
+}
+.cell-block{
+    display: flex;
+    flex-direction: column;
+}
+
+#cell{
+    display: flex;
+   align-items: center;
+    margin: 3px;
+    padding: 5px;  
+    font-size: 15px; 
+    border-radius: 6px;
+}
+
+#cell:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+   
+}
+
+a{
+  
+    text-decoration: none;
+    
+}
+
+#cell:focus {
+    background-color: rgb(191, 235, 191);
+    color: var(--primary-color);
+    
+}
+.material-icons{
+    margin-right: 40px;
+}
+hr {
+    margin: 10px 0;
+    border: 1px solid lightgray;
+}
+/* Drawer Frame CSS Code below */
+.drawer-frame-app-content{
+  /* width: 76%; */
+  flex: 0 2 auto;
+  height: 100%;
+ 
+  border: 1px solid lightgray;
+  
+  overflow-y: scroll;
+  
+}
+.drawer-top-bar{
+    background-color: var(--primary-color);
+    color: white;
+    height: 3rem;
+   padding: 1rem;
+}

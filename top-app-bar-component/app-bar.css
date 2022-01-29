@@ -1,0 +1,61 @@
+
+:root{
+    --primary-color: green;
+}
+.container-standard-nav, .container-fixed-nav{
+    height: 200px ;
+    border: 1px solid grey;
+    flex-basis: 400px;
+    overflow-y: scroll;
+    margin: 10px;
+    /* flex-direction: column; */
+}
+.top-app-bar-standard{
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.25rem;
+    flex: 1 1 auto;
+    align-items: center;
+    /* margin: 10px; */
+}
+.app-menu-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+.app-icons{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+}
+.material-icons{
+   margin: 5px 7px;
+   padding: 10px;
+   border-radius: 5px;
+}
+.material-icons:hover{
+    background-color: rgb(106, 146, 106);
+  
+}
+.material-icons:active{
+    background-color: rgb(178, 189, 178);
+  
+}
+
+/* Fixed App Bar CSS*/
+.top-app-bar-fixed{
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.25rem;
+    position: sticky;
+    top: 0;
+
+}

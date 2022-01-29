@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    cursor: context-menu;
+}
+:root{
+    --primary-color: #228B22;
+    --secondary-color: #8B228B;
+}
+.chip-1, .chip-2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+
+    
+}
+#chips{
+  /* border: 1px solid black; */
+  font-size: 15px;
+  font-weight: 500;
+  margin: 7px 3px;
+  border-radius: 17px;
+  padding: 8px 10px;
+  background-color: gainsboro;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 1 118px;
+  white-space: nowrap;  /* To make sure that line doesn't breaks after space in words */
+ 
+
+}
+#chips:hover{
+    background-color:darkgrey;
+}
+.cross-btn{
+    color: #929292 ;
+    font-size: 18px
+}
+.cross-btn:hover{
+    color: rgb(73, 72, 72);
+    cursor: pointer;
+}
+.acnt-icn{
+    font-size: 18px;
+}
+
+/* Chip-2: Basic Chips  */
+#basic-chip, #pri-chip ,#sec-chip{
+     /* border: 1px solid black; */
+  font-size: 15px;
+  font-weight: 500;
+  margin: 7px 3px;
+  border-radius: 17px;
+  padding: 8px 10px;
+  background-color: gainsboro;
+  color: black;
+ }
+
+#pri-chip{
+    background-color: var(--primary-color);
+    color: white;
+}
+#sec-chip{
+    background-color: var(--secondary-color);
+    color: white;
+}
+#basic-chip:hover{
+    background-color: lightgray;
+}
+#pri-chip:hover ,#sec-chip:hover{
+   color: rgb(221, 208, 208);
+}
+/* Stacked Chips */
+.chip-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+}

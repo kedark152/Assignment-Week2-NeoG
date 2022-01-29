@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.badge{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    white-space: nowrap;
+    font-weight: 600;
+    position: relative;
+   
+}
+.badge-sm{
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    top: -10px;
+    left:-8px;
+    
+}
+.badge-lg{
+    font-size: 1.25rem;
+    padding: 4px 10px;
+    top: -10px;
+    left:-8px;
+   
+    
+}
+.badge-btn{
+    background-color: #B345BA;
+    top: -16px;
+    left: -20px;
+}
+
+.badge-visib{
+    top: -16px;
+    left: -20px;
+}
+.badge-icon{
+    padding: 4px 6px;
+    top: -20px;
+    left:-17px;
+
+}
+.button-badge{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    padding: 5px 10px;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+.button-badge:active{
+    background-color: rgb(74, 153, 74);
+}
+.button-badge-visib{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.button-badge-visib:active{
+   background-color: lightgrey;
+   
+}

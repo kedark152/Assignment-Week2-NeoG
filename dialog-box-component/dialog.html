@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialog Box Component</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Buttons to Open dialog Box -->
+    <button class="alert-dialog-btn dialog-btn">OPEN ALERT DIALOG</button>
+    <button class="simple-dialog-btn dialog-btn">OPEN SIMPLE DIALOG</button>
+    <button class="confirm-dialog-btn dialog-btn">
+      OPEN CONFIRMATION DIALOG
+    </button>
+
+    <div class="container">
+      <!-- Alert Dialog Box -->
+
+      <div class="alert-dialog-box">
+        <h2 class="dialog-header">Dialog Header</h2>
+        <div class="dialog-body">Dialog body Text</div>
+        <footer class="dialog-actions">
+          <button class="action1">ACTION1</button>
+          <button class="action2">ACTION2</button>
+        </footer>
+      </div>
+      <!-- Simple Dialog Box -->
+
+      <div class="simple-dialog-box">
+        <h2 class="dialog-header">Dialog Header</h2>
+
+        <div class="dialog-items">
+          <i class="material-icons icon-simple">account_circle</i>
+          <span class="text-item">Item 1</span>
+        </div>
+        <div class="dialog-items">
+          <i class="material-icons icon-simple">account_circle</i>
+          <span class="text-item">Item 2</span>
+        </div>
+        <div class="dialog-items">
+          <i class="material-icons icon-simple">account_circle</i>
+          <span class="text-item">Item 3</span>
+        </div>
+      </div>
+      <!-- Confirmation Dialog Box -->
+
+      <div class="confirm-dialog-box">
+        <h2 class="dialog-header">Dialog Header</h2>
+        <hr />
+        <div class="dialog-radio-btns">
+          <div class="radio-btn">
+            <input type="radio" id="item1" name="fav_language" value="Item1" />
+              <label for="item1">Item1</label><br />
+          </div>
+          <div class="radio-btn">
+            <input type="radio" id="item2" name="fav_language" value="Item2" />
+              <label for="item2">Item2</label><br />
+          </div>
+          <div class="radio-btn">
+            <input type="radio" id="item3" name="fav_language" value="Item3" />
+              <label for="item3">Item3</label><br />
+          </div>
+          <div class="radio-btn">
+            <input type="radio" id="item4" name="fav_language" value="Item4" />
+              <label for="item4">Item4</label><br />
+          </div>
+        </div>
+        <hr />
+        <footer class="dialog-actions">
+          <button class="action1 saveBtn">SAVE</button>
+          <button class="action2 cancelBtn">CANCEL</button>
+        </footer>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
