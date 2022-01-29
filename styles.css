@@ -128,9 +128,15 @@ i:active {
   color: white;
 }
 
-/* .card-4 #card-btns{
-     justify-content: start;
- } */
+/* Card-4: Basic w/Only Buttons */
+.card-4 .material-icons{
+     display: none;
+ }
+
+/* Card-5: Basic w/Only Icons */
+.card-5 button{
+  display: none;
+}
 
 /* Card 6 - Horizontal image and text */
 .card-6 #card-media {
