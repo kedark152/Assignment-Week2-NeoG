@@ -28,6 +28,7 @@ button{
     background-color: rgb(46, 150, 46);
 }
 .snackbar{
+    
     background-color: #333333;
     color: white;
     display: flex;
@@ -42,7 +43,7 @@ button{
     
 }
 .snackbar-baseline{
-  
+    display: none;
     bottom: 10%;
     right: 35%;
 }
@@ -79,13 +80,15 @@ button{
 }
 /* Snackbar Leading */
 .snackbar-leading{
+    display: none;
     bottom: 10%;
-    left: 15%;
+    left: 10%;
 }
 
 /* Snackbar Stacked */
 .snackbar-stacked{
-    bottom: 20%;
+    display: none;
+    bottom: 10%;
     right: 35%;
     flex-direction: column;
     padding:5px
@@ -100,3 +103,4 @@ button{
   margin-left: auto;
  
  }
+ 
